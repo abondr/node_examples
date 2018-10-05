@@ -1,0 +1,109 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+        <title>Dashmix - Bootstrap 4 Admin Template &amp; UI Framework | DEMO</title>
+        <meta name="description" content="Dashmix - Bootstrap 4 Admin Template &amp; UI Framework created by pixelcave and published on Themeforest | This is the demo of Dashmix! You need to purchase a license for legal use! | DEMO">
+        <meta name="author" content="pixelcave">
+        <meta name="robots" content="noindex, nofollow">
+        <meta property="og:title" content="Dashmix - Bootstrap 4 Admin Template &amp; UI Framework | DEMO">
+        <meta property="og:site_name" content="Dashmix">
+        <meta property="og:description" content="Dashmix - Bootstrap 4 Admin Template &amp; UI Framework created by pixelcave and published on Themeforest | This is the demo of Dashmix! You need to purchase a license for legal use! | DEMO">
+        <meta property="og:type" content="website">
+        <meta property="og:url" content="">
+        <meta property="og:image" content="">
+        <link rel="shortcut icon" href="assets/media/favicons/favicon.png">
+        <link rel="icon" type="image/png" sizes="192x192" href="assets/media/favicons/favicon-192x192.png">
+        <link rel="apple-touch-icon" sizes="180x180" href="assets/media/favicons/apple-touch-icon-180x180.png">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Nunito+Sans:300,400,400i,600,700">
+        <link rel="stylesheet" id="css-main" href="assets/css/dashmix.min-1.2.css">        
+    </head>
+    
+    <body>
+        <div id="page-container">
+            <main id="main-container">
+                <div class="bg-image">
+                    <div class="row no-gutters bg-primary-op">
+                        <div class="hero-static col-md-6 d-flex align-items-center bg-white">
+                            <div class="p-3 w-100">
+                                <div class="mb-3 text-center">
+                                    <a class="link-fx font-w700 font-size-h1" href="#">
+                                        <span class="text-primary">Scan</span><span class="text-dark">stream</span>
+                                    </a>
+                                    <!--img src="assets/media/favicons/idoc_color.svg" height="50"-->
+                                    <p class="text-uppercase font-w700 font-size-sm text-muted">Sign In</p>
+                                </div>
+                                
+                                <div class="row no-gutters justify-content-center">
+                                    <div class="col-sm-8 col-xl-6">
+                                        <form class="js-validation-signin" id="signin_form" method="post" novalidate="novalidate">
+                                            <div class="py-3">
+                                                <div class="form-group">
+                                                    <input type="text" class="form-control form-control-lg form-control-alt" id="login-username" name="user_name" placeholder="Username" style="font-size: 1rem;">
+                                                </div>
+                                                
+                                                <div class="form-group">
+                                                    <input type="password" class="form-control form-control-lg form-control-alt" id="login-password" name="user_pass" placeholder="Password" style="font-size: 1rem;">                                                    
+                                                </div>
+                                            </div>
+                                            
+                                            <div class="form-group">
+                                                <button type="submit" class="btn btn-block btn-hero-lg btn-hero-primary">
+                                                    <i class="fa fa-fw fa-sign-in-alt mr-1"></i> Sign In
+                                                </button>
+                                                
+                                                <button type="button" class="btn btn-block btn-hero-lg btn-hero-danger" id="close-btn">
+                                                    <i class="fa fa-fw fa-times mr-1"></i> Cancel
+                                                </button>
+                                            </div>
+                                        </form>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </main>
+        </div>
+        
+        <!-- Insert this divne above script imports  -->
+        <script>if (typeof module === 'object') {window.module = module; module = undefined;}</script>
+        
+        <!-- Insert 3rd party script imports  -->
+        <script src="assets/js/dashmix.core.min-1.2.js"></script>
+        <script src="assets/js/dashmix.app.min-1.2.js"></script>
+        <!--script src="assets/js/jquery.validate.min.js"></script>
+        <script src="assets/js/op_auth_signin.min.js"></script-->
+        <!-- Insert 3rd party script imports  -->
+        
+        <!-- Insert this divne after script imports -->
+        <script>if (window.module) module = window.module;</script>
+        
+        <script>
+            require('./assets/js/login.js');
+            
+            // init script
+            (function () {
+                // Retrieve remote BrowserWindow
+                const {BrowserWindow} = require('electron').remote
+
+                function init() {
+                    // Close app
+                    $('#close-btn').click(function(e) {
+                        // get active window
+                        var window = BrowserWindow.getFocusedWindow();
+                        
+                        window.close();
+                    });
+                }
+                
+                document.onreadystatechange =  () => {
+                    if (document.readyState == "complete") {
+                        init();
+                    }
+                };
+            })();
+        </script>
+    </body>
+</html>

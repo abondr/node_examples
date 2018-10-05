@@ -1,0 +1,212 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <title>Dashmix - Bootstrap 4 Admin Template &amp; UI Framework | DEMO</title>
+    <meta name="description" content="Dashmix - Bootstrap 4 Admin Template &amp; UI Framework created by pixelcave and published on Themeforest | This is the demo of Dashmix! You need to purchase a license for legal use! | DEMO">
+    <meta name="author" content="pixelcave">
+    <meta name="robots" content="noindex, nofollow">
+    <meta property="og:title" content="Dashmix - Bootstrap 4 Admin Template &amp; UI Framework | DEMO">
+    <meta property="og:site_name" content="Dashmix">
+    <meta property="og:description" content="Dashmix - Bootstrap 4 Admin Template &amp; UI Framework created by pixelcave and published on Themeforest | This is the demo of Dashmix! You need to purchase a license for legal use! | DEMO">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="">
+    <meta property="og:image" content="">
+    <link rel="shortcut icon" href="assets/media/favicons/favicon.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="assets/media/favicons/favicon-192x192.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="assets/media/favicons/apple-touch-icon-180x180.png">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Nunito+Sans:300,400,400i,600,700">
+    <link rel="stylesheet" id="css-main" href="assets/css/dashmix.min-1.2.css">
+</head>
+
+<body>
+    <form id="form_upload">
+        <div class="block-content tab-content overflow-hidden p-0">
+            <div class="tab-pane fade active show" id="uploads" role="tabpanel">
+                <div class="row" id="dragdrop-container">
+                    <div class="col-md-12">
+                        <div class="block block-themed mb-0">
+                            <div class="block-header block-header-default bg-xwork-light" id="upload-progress" style="background:-webkit-linear-gradient(left, #82b54b 0%, #6d7a86 0%)">
+                                <h3 class="block-title"><small data-value="upload-progress">Upload Document</small></h3>
+                                <div class="block-options">
+                                    <button type="button" class="btn-block-option grid" data-toggle="report" data-action="upload-report">
+                                        <i class="si si-grid cloud-upload"></i>
+                                    </button>
+                                    
+                                    <button type="button" class="btn-block-option" data-toggle="block-option" data-action="refresh-upload">
+                                        <i class="si si-refresh"></i>
+                                    </button>
+                                    
+                                    <button type="button" class="btn-block-option" data-toggle="block-option" data-action="start-upload">
+                                        <i class="si si-control-play"></i>
+                                    </button>
+                                    
+                                    <button type="button" class="btn-block-option" id="min-btn" title="Minimize">
+                                        <i class="si si-arrow-down"></i>
+                                    </button>
+                                    
+                                    <button type="button" class="btn-block-option hide" id="max-btn" title="Restore Down">
+                                        <i class="si si-size-fullscreen"></i>
+                                    </button>
+                                    
+                                    <button type="button" class="btn-block-option" id="close-btn" title="Close">
+                                        <i class="si si-close"></i>
+                                    </button>
+                                </div>
+                            </div>
+                            
+                            <div id="upload-container" class="block-content">
+                                <div class="row push">
+                                    <div class="col-lg-12 col-xl-12">
+                                        <div class="form-group">
+                                            <div class="input-group">
+                                                <div class="input-group-prepend">
+                                                    <button type="button" class="btn btn-primary">
+                                                        <i class="fa fa-angle-double-right"></i>
+                                                    </button>
+                                                </div>
+                                                
+                                                <input type="text" class="form-control" id="source_path" placeholder="Source">
+                                                
+                                                <div class="input-group-append">
+                                                    <button type="button" class="btn btn-primary open-path" id="open_source">
+                                                        <i class="fa fa-folder-open"></i>
+                                                    </button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        
+                                        <div class="form-group">
+                                            <div class="input-group">
+                                                <div class="input-group-prepend">
+                                                    <button type="button" class="btn btn-primary">
+                                                        <i class="fa fa-angle-double-right"></i>
+                                                    </button>
+                                                </div>
+                                                
+                                                <input type="text" class="form-control" id="dest_path" placeholder="Destination">
+                                                
+                                                <div class="input-group-append">
+                                                    <button type="button" class="btn btn-primary open-path" id="open_dest">
+                                                        <i class="fa fa-folder-open"></i>
+                                                    </button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                
+                                <div id="file-uploader-container" data-simplebar>
+                                    <div class="file-uploader-container p-2"></div>
+                                </div>
+                            </div>
+                            
+                            <div id="report-container" class="block-content hide">
+                                <div class="row push mb-0">                                    
+                                    <div class="col-lg-12 col-xl-12">
+                                        <div class="block block-rounded block-bordered mb-0">
+                                            <div class="block-header block-header-default">
+                                                <h3 class="block-title">Upload Logs</h3>                                            
+                                            </div>
+                                            
+                                            <div class="block-content">
+                                                <table class="table table-sm1 table-vcenter mb-0" id="upload-logs">
+                                                    <thead>
+                                                        <tr>
+                                                            <th class="text-center" style="width: 5%;">#</th>
+                                                            <th style="width: 40%;">File Name</th>
+                                                            <th style="width: 15%;">Date & Time</th>
+                                                            <th style="width: 15%;">User Name</th>
+                                                            <th style="width: 25%;">Status</th>
+                                                        </tr>
+                                                    </thead>
+                                                    
+                                                    <tbody>
+                                                        
+                                                    </tbody>
+                                                </table>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </form>
+
+    <!-- Insert this divne above script imports  -->
+    <script>if (typeof module === 'object') {window.module = module; module = undefined;}</script>
+
+    <!-- Insert 3rd party script imports  -->
+    <script src="assets/js/dashmix.core.min-1.2.js"></script>
+    <script src="assets/js/dashmix.app.min-1.2.js"></script>
+    <!-- Insert 3rd party script imports  -->
+    
+    <!-- Insert this divne after script imports -->
+    <script>if (window.module) module = window.module;</script>
+
+    <script>
+        // require upload script
+        require('./assets/js/uploader.js');
+        
+        // init script
+        (function () {
+            // Retrieve remote BrowserWindow
+            const {BrowserWindow} = require('electron').remote;
+            
+            function init() {
+                // Minimize task
+                $('#min-btn').click(function(e) {
+                    // get active window
+                    var window = BrowserWindow.getFocusedWindow();
+                    
+                    window.minimize();
+                });
+
+                // Maximize window
+                $('#max-btn').click(function(e) {
+                    maxmin();
+                });
+
+                // Close app
+                $('#close-btn').click(function(e) {
+                    // get active window
+                    var window = BrowserWindow.getFocusedWindow();
+                    
+                    window.close();
+                });
+                
+                // min max win
+                maxmin();
+            };
+            
+            function maxmin() {
+                // get active window
+                var window = BrowserWindow.getFocusedWindow();
+                
+                if(window.isMaximized()){
+                    window.unmaximize();
+                    $('#max-btn').attr('title', 'Maximize');
+                    $('#max-btn > i.si').addClass('si-size-fullscreen').removeClass('si-size-actual');
+                }else{
+                   window.maximize();
+                   $('#max-btn').attr('title', 'Restore Down');
+                   $('#max-btn > i.si').removeClass('si-size-fullscreen').addClass('si-size-actual');
+                }
+            }
+
+            document.onreadystatechange =  () => {
+                if (document.readyState == "complete") {
+                    init();
+                }
+            };
+        })();
+    </script>
+</body>
+
+</html>

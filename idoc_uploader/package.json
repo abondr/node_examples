@@ -1,0 +1,27 @@
+{
+  "name": "scanstream",
+  "version": "1.0.0",
+  "description": "Scanstream File Uploder",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "build": "electron-packager . --overwrite --platform=win32 --arch=ia32 --icon=idoc.ico"
+  },
+  "repository": "https://github.com/electron/electron-quick-start",
+  "keywords": [
+    "somnetics",
+    "idoc",
+    "file",
+    "uploader",
+    "seamless"
+  ],
+  "author": "Somnetics",
+  "license": "SIIPL",
+  "devDependencies": {
+    "electron": "^2.0.0"
+  },
+  "dependencies": {
+    "dateformat": "^3.0.3",
+    "npm": "^6.4.1"
+  }
+}
