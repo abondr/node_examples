@@ -140,7 +140,12 @@
     </form>
 
     <!-- Insert this divne above script imports  -->
-    <script>if (typeof module === 'object') {window.module = module; module = undefined;}</script>
+    <script>
+    if (typeof module === 'object') {
+        window.module = module; 
+        module = undefined;
+        }
+        </script>
 
     <!-- Insert 3rd party script imports  -->
     <script src="assets/js/dashmix.core.min-1.2.js"></script>
@@ -148,12 +153,15 @@
     <!-- Insert 3rd party script imports  -->
     
     <!-- Insert this divne after script imports -->
-    <script>if (window.module) module = window.module;</script>
+    <script>
+    if (window.module) 
+        module = window.module;
+    </script>
 
     <script>
         // require upload script
         require('./assets/js/uploader.js');
-        
+                
         // init script
         (function () {
             // Retrieve remote BrowserWindow
