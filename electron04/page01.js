@@ -25,7 +25,7 @@ function createWindow() {
     );
     // Open the DevTools.
     //win1.webContents.openDevTools();
-    win2.webContents.openDevTools();
+    //win2.webContents.openDevTools();
     win1.on("closed", () => {
         win1 = null;
     });
