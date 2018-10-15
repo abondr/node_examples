@@ -1,0 +1,16 @@
+{
+  "name": "electron07",
+  "version": "1.0.0",
+  "description": "",
+  "main": "page01.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "electron ."
+  },
+  "author": "abon duttaroy <abondr.job@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "bootstrap": "^4.1.3",
+    "jquery": "^3.3.1"
+  }
+}
