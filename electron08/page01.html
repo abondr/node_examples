@@ -15,11 +15,18 @@
         <h2>
             Page01
         </h2>
-        <ul class="list-group list-group-flush" id="fileListing"></ul>
-    </div>
-    <script src="./node_modules/jquery/dist/jquery.min.js"></script>
-    <script src="./node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
-    <script src="./library/scripts/myscript01.js"></script>
+        <button class="btn btn-info" id="reload">Reload</button>
+
+        <div id="quote"></div>
+        <div id="title"></div>
+        </button>
+        <script>
+            window.$ =
+                window.jQuery =
+                require('./node_modules/jquery/dist/jquery.min');
+        </script>
+        <script src="./node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+        <script src="./library/script/myscript01.js"></script>
 </body>
 
 </html>

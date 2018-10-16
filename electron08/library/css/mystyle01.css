@@ -1,0 +1,21 @@
+body {
+    background-color: #222233;
+    color: #aaccff;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    height: 150px;
+    overflow: hidden;
+    border-radius: 5px;
+}
+
+#quote {
+    margin: 1px 2px 1px 2px;
+    color: chocolate;
+    font-size: 12px;
+}
+
+#title {
+    margin: 2px 2px 3px 2px;
+    color: crimson;
+    font-size: 18px;
+    text-align: right;
+}
