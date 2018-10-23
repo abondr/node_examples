@@ -17,7 +17,7 @@ function createWindow(renderProcess = win1, htmlPage = file1, attr = []) {
         })
     );
     // Open the DevTools.
-    renderProcess.webContents.openDevTools();
+    // renderProcess.webContents.openDevTools();
     renderProcess.on("closed", () => {
         renderProcess = null;
     });
@@ -30,7 +30,15 @@ app.on("ready", function() {
         file1, {
             'width': 630,
             'height': 360,
-            'frame': false
+            //       'frame': false
+        }
+    );
+    createWindow(
+        win2,
+        file2, {
+            'width': 360,
+            'height': 360,
+            //         'frame': false
         }
     );
 

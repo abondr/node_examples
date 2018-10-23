@@ -15,9 +15,14 @@
         <h2>
             Page01
         </h2>
-        <ul class="list-group list-group-flush" id="fileListing"></ul>
+        <button id="error1" class="btn btn-warning">Click Me</button>
     </div>
-    <script src="./node_modules/jquery/dist/jquery.min.js"></script>
+    <script>
+        window.$ =
+            window.jQuery =
+            require('./node_modules/jquery/dist/jquery.min.js');
+    </script>
+    <script src="./node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
     <script src="./node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
     <script src="./library/scripts/myscript01.js"></script>
 </body>
