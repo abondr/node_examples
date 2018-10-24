@@ -1,0 +1,12 @@
+const electron = require("electron");
+const app = electron.app;
+const BrowserWindow = electron.BrowserWindow;
+const fs = require('fs');
+const path = require("path");
+const url = require("url");
+let win1;
+const file3 = "pages//page03.html";
+let row1 = "<tr><td>1</td><td>name 1</td></tr>";
+$("#list_table tbody").append(row1);
+$("#list_table tbody").append(row1);
+$("#list_table tbody").append(row1);
