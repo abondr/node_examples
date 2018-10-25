@@ -28,13 +28,16 @@ $.fn.callFileOperation = function () {
         row1 = "<tr><td>" + count + "</td><td>" + filePath + "</td></tr>";
         $("#list_table tbody").append(row1);
     });
-    console.log(2);
     return this;
 }
 
 $.fn.hideLoader = function () {
     $(".se-pre-con").hide();
-    console.log(3);
     return this;
 }
-$(window).callFileOperation().hideLoader();
+$(window).on("load", function () {
+    $(window).callFileOperation().hideLoader();
+})
+$("#btnExecute").on("click", function () {
+
+});
