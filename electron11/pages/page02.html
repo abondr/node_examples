@@ -7,13 +7,26 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
     <link rel="stylesheet" href="../node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../styles/page02.css">
 </head>
 
 <body>
+    <div id="preloader">
+        <div id="loader"></div>
+    </div>
     <div class="container">
         <div class="h2">
-            abcd
+            File Path List
         </div>
+        <table id="list_table" class="table table-condensed table-striped">
+            <thead>
+                <tr>
+                    <th>Number</th>
+                    <th>Path</th>
+                </tr>
+            </thead>
+            <tbody></tbody>
+        </table>
     </div>
     <script>
         window.$ =
