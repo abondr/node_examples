@@ -1,7 +1,6 @@
-var express = require('express')  
-  , hbs     = require('express-hbs')
-  , app
-  ;
+var express = require('express'),
+  hbs = require('express-hbs'),
+  app;
 
 // create Express 4 App
 app = express();
@@ -10,16 +9,16 @@ app = express();
 app.set('view engine', 'hbs');
 
 // configure the view engine 
-app.engine('hbs', hbs.express4({  
+app.engine('hbs', hbs.express4({
   defaultLayout: __dirname + '/views/layouts/default.handlebars',
   partialsDir: __dirname + '/views/partials',
   layoutsDir: __dirname + '/views/layouts'
 }));
 
 // configure views path
-app.set('views', path.join(__dirname,'/views'));
+app.set('views', path.join(__dirname, '/views'));
 
-server.get('/', function(req, res) {  
+server.get('/', function (req, res) {
   var user = {
     first: 'Brian',
     last: 'Mancini',
@@ -30,4 +29,4 @@ server.get('/', function(req, res) {
 
 });
 
-server.listen(3000);  
+server.listen(3000);

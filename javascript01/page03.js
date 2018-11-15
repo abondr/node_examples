@@ -6,5 +6,4 @@ for (var prop in x) {
 for (var prop in y) {
     new_obj[prop] = y[prop];
 }
-
 console.log(new_obj);

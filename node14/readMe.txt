@@ -1,0 +1,25 @@
+Look closely at him. Look into his eyes. He is the property of another man. His wife, his children and his grand children are also the property of another human being.
+
+You may see reflected in his look what it was to be a slave in ancient Rome or the cotton plantations of the Southern United States.
+
+I met him in Mali, in the conflict zone. He served me food and Tamasheq tea on several occasions. I was meeting with a group of Tamasheq and other nobles in the Gourma, a part of the Sahel, where North Africa and Sub-Saharan Africa meet.
+
+He was extremely grateful and highly honoured when I asked to take his picture. As a slave he of course has absolutely no social standing and is entirely dependent on the good will of his master for his water, food, clothing, health and even his very life. Yes, traditionally his master has the right of life or death over him. The soldiers, rangers and others with whom I work were fascinated that I would want to take a picture of such a person rather than a noble with his robes, swords and other signs of status and power.
+
+Don’t be surprised, he is not so unusual. There are around 200,000 slaves in Mali, possibly many, many more, and slavery in the region is growing. A recent report by Newsweek of slaves being openly sold in markets in Libya sparked apparent shock and horror all over the world. This is a reflection of the worldwide ignorance regarding the actual condition of both the human and natural environments. Existing slavery and its growth are a very well known fact, yet in most countries slavery is spoken of in the past tense.
+
+I work in the conflict zone as chief instructor of the Malian mixed army-ranger anti-poaching brigade, a project supported by Chengeta Wildlife, Wild Foundation, The Canadian Fund for International Conservation and others. This is not a place the NGO’s in big, shiny air-conditioned SUV’s will come. Nor is it a place that even the UN peacekeepers or other military are willing to enter, except as part of a fast in-and-out mission by air.
+
+I have gotten to know many men like this man. I know the owners, the slaves, and I have gotten to know former slaves. None of these people are shy about discussing slavery and how they view it. I have tried to see it as the people of this region do, so as to understand it.
+
+No man wishes to be a slave. However, like a kidnapped person suffering from Stockholm Syndrome, the slaves identify with their master and, get ready for it, often look at them with love and affection. The slave-owners often refer to their slaves as their “children”. Most could imagine life without chiefs and nobles more easily than they could without slaves.
+
+I have also gotten to know a number of former slaves who have risen through the ranks of the Malian Armed Forces to command men who are themselves from slave-owning families. Most of these men have severed ties with their former owners and have a very surprising perspective. They usually refer to both slaves and slave-owners as “their people” and seldom hold a grudge against their former masters. Whilst they appreciate being free they do not look at their slavery or freedom as a question of right or wrong, but rather as a change from one system to another, or even of their own personal upward mobility.
+
+This is I believe is a key to understanding slavery. Slavery is not a simple question of law or perceived freedom. It is a social and economic system in which status, power and wealth are rewarded with entitlement. To stop the slavery, the entire culture needs to change. The whole system.
+
+Returning home to the modern world is always a greater journey for me than simple transportation. It is always very difficult to get my mind out of that world and into the 21st Century. I cannot help but be fascinated with the many parallels and hypocrisies I see around me when I return home.
+
+People in the modern world are shedding their sense of equality and modesty and openly adoring the unbridled pursuit of wealth, power and status as true virtues. Creativity, knowledge, wisdom and society all take a back seat. The reward for Machiavellian ambition is the same entitlement.
+
+It is as though the slaves are agreeing to be slaves in the belief they may somehow make it out of the pit and to the top of the pile.
