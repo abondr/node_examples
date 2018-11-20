@@ -7,7 +7,9 @@ var solveRect = (l, b) => {
         console.log(`+++++++++++++++++start+++++${l}+++++${b}+++++++++++++++++`);
         if (error01) {
             console.log("---error start");
-            console.log(error01);
+            console.log(
+
+            );
             console.log("---error end");
         } else {
             console.log(`=====result=====start==`);
@@ -21,5 +23,5 @@ var solveRect = (l, b) => {
 }
 
 solveRect(2, 4);
-solveRect(3, 5);
 solveRect(-3, 5);
+solveRect(3, 5);
